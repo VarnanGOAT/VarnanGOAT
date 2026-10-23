@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Varnan Jha — Founder, product builder, aviation tech">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#14224a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font: 700 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: -1px; }
+      .role { font: 500 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: url(#accent); letter-spacing: 0.5px; }
+      .tag  { font: 400 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; letter-spacing: 3px; }
+      .plane { animation: fly 9s linear infinite; }
+      .trail { animation: fade 9s linear infinite; }
+      .star  { animation: twinkle 3s ease-in-out infinite; }
+      .star:nth-of-type(2n) { animation-delay: 1s; }
+      .star:nth-of-type(3n) { animation-delay: 2s; }
+      @keyframes fly { 0% { transform: translate(-120px, 40px) rotate(-8deg); } 100% { transform: translate(1320px, -60px) rotate(-8deg); } }
+      @keyframes fade { 0%, 100% { opacity: 0; } 20%, 80% { opacity: .35; } }
+      @keyframes twinkle { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <g fill="#ffffff">
+    <circle class="star" cx="90"  cy="40"  r="1.6"/>
+    <circle class="star" cx="260" cy="90"  r="1.2"/>
+    <circle class="star" cx="420" cy="30"  r="1.8"/>
+    <circle class="star" cx="610" cy="70"  r="1.2"/>
+    <circle class="star" cx="780" cy="35"  r="1.6"/>
+    <circle class="star" cx="940" cy="95"  r="1.2"/>
+    <circle class="star" cx="1100" cy="45" r="1.8"/>
+    <circle class="star" cx="1150" cy="150" r="1.2"/>
+    <circle class="star" cx="520" cy="280" r="1.2"/>
+    <circle class="star" cx="880" cy="270" r="1.6"/>
+  </g>
+
+  <g class="trail" stroke="url(#accent)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M0 250 C 300 230, 700 190, 1200 120" stroke-dasharray="2 10"/>
+  </g>
+
+  <g class="plane">
+    <g transform="translate(0,180)">
+      <path d="M0 0 L38 -6 L52 0 L38 6 Z" fill="#e2e8f0"/>
+      <path d="M18 -4 L34 -26 L40 -26 L32 -3 Z" fill="#cbd5e1"/>
+      <path d="M18 4 L34 26 L40 26 L32 3 Z" fill="#cbd5e1"/>
+      <path d="M4 -2 L10 -12 L13 -12 L10 -2 Z" fill="#94a3b8"/>
+    </g>
+  </g>
+
+  <text class="name" x="70" y="150">Varnan Jha</text>
+  <text class="role" x="72" y="196">Founder · Product Builder · Aviation Tech</text>
+  <text class="tag" x="74" y="248">BEFORE THE SKY</text>
+
+  <rect x="72" y="262" width="120" height="4" rx="2" fill="url(#accent)"/>
+</svg>

@@ -1,6 +1,6 @@
 <img src="assets/ampyric-waveform.jpg" width="100%" alt="Varnan Jha, founder of Ampyric, beside a lime-green voice waveform that curls into a loop." />
 
-I’m **Varnan Jha**, founder of **Ampyric**. I build software that lets cabin crew and ground staff practise the situations they’ll face in interviews, on board and at the airport. I work across product, design, engineering and sales with aviation training institutes in India.
+I’m **Varnan Jha**, founder of **Ampyric**. I build AI simulators that help cabin crew and ground staff practise interviews, in-flight situations and airport operations. I’m also building Brain SI, an AI operating system that runs company work with humans approving every decision, and Neighbouraction, I work across product, design, engineering and sales.
 
 ## Featured project
 

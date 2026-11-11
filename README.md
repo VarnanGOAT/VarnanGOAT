@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.jpg" width="100%" alt="Varnan · Aviation training software. A passenger jet on an illuminated apron at night." />
+<img src="assets/ampyric-waveform.jpg" width="100%" alt="Varnan Jha, founder of Ampyric, beside a lime-green voice waveform that curls into a loop." />
 
 I’m **Varnan Jha**, founder of **Ampyric**. I build software that lets cabin crew and ground staff practise the situations they’ll face in interviews, on board and at the airport. I work across product, design, engineering and sales with aviation training institutes in India.
 
